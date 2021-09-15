@@ -28,10 +28,11 @@ $times: Times, serif !default;
 $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
-$courier: Courier, serif !default;
+$courier: Courier, monospace !default;
+$couriernew: "Courier New", monospace !default;
 
-$global-font-family: $courier !default;
-$header-font-family: monospace !default;
+$global-font-family: $couriernew !default;
+$header-font-family: $courier !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
