@@ -4,9 +4,11 @@
 
 /* Colors */
 $background-color: #000 !default;
-$text-color: #4efd54 !default;
+$text-color: #00ff00 !default;
 $primary-color: #fe019a !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
+$selection-background: $primary-color
+$selection-text: $background-color
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
